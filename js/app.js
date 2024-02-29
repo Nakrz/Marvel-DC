@@ -107,104 +107,104 @@ const personajesMarvel = [
 ]
 const personajesDC = [
     {
-        'id': '5d86371f1efebc31def272e2',
+        'id': '16',
         'universo': 'DC',
         'about': 'Ipsum duis incididunt ullam deserunt.',
         'picture': 'https://pbs.twimg.com/media/FzqImx_acAcBWhh?format=jpg&name=large',
         'name': 'Batman'
     },
     {
-        'id': '5d86371f2343e37870b91ef1',
+        'id': '17',
         'universo': 'DC',
         'about': 'Mollit officia ad excepteur anim proidupidatat cillum ipsum laborum.',
         'picture': 'https://qph.cf2.quoracdn.net/main-qimg-951fe5f010cc525d8bc483ef11f9fcd8',
         'name': 'Superman'
     },
     {
-        'id': '5d86371f25a058e5b1c8a65e',
+        'id': '18',
         'universo': 'DC',
         'about': 'Laboris est duis eiusmod cididunt pariatut  t adipisicing cillum.',
-        'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d92ddac3-99a5-479b-86ab-ef867fc9ce20/da7zeim-eb76b81b-743d-4212-a544-68d234f940c3.jpg/v1/fit/w_593,h_900,q_70,strp/wonderwoman001covletiant_by_whitehowler7_da7zeim-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvZDkyZGRhYzMtOTlhNS00NzliLTg2YWItZWY4NjdmYzljZTIwXC9kYTd6ZWltLWViNzZiODFiLTc0M2QtNDIxMi1hNTQ0LTY4ZDIzNGY5NDBjMy5qcGciLCJ3aWR0aCI6Ijw9NTkzIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.JWth16Rxbg-4DMjb5dg9hEMv79xKsMop8TpDyrGdV8Y',
+        'picture': 'https://static.tvtropes.org/pmwiki/pub/images/ww_1.png',
         'name': 'Wonder Woman'
     },
     {
-        'id': '5d86371f9f80b591f499df32',
+        'id': '19',
         'universo': 'DC',
         'about': 'Ipsum tempor sunt Lorem est aute consectetur.',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/489ad4a5-74de-4523-b232-b5e0e5e3e7ca/dbrh1k3-39247f87-41ab-4c28-b913-d80aae6945aa.jpg/v1/fit/w_828,h_1280,q_70,strp/aquaman_by_gustavosantos01_dbrh1k3-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU4MyIsInBhdGgiOiJcL2ZcLzQ4OWFkNGE1LTc0ZGUtNDUyMy1iMjMyLWI1ZTBlNWUzZTdjYVwvZGJyaDFrMy0zOTI0N2Y4Ny00MWFiLTRjMjgtYjkxMy1kODBhYWU2OTQ1YWEuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.JsW__q7LIiQNPlqqE-0yyinO_lhQtiUZZVGuA6ZgejM',
         'name': 'Aquaman'
     },
     {
-        'id': '5d86371f233c9f2425f16916',
+        'id': '20',
         'universo': 'DC',
         'about': 'Deserunt voluptate ipsum exercitation on eu aliquip quis ea. ',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9e835f7-9567-4188-b9ef-0c02574d24e7/dao9esa-adf9bc0d-4400-4a74-9d99-1e90ec0dd313.jpg/v1/fit/w_700,h_1066,q_70,strp/the_flash_color_by_logicfun_dao9esa-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA2NiIsInBhdGgiOiJcL2ZcL2U5ZTgzNWY3LTk1NjctNDE4OC1iOWVmLTBjMDI1NzRkMjRlN1wvZGFvOWVzYS1hZGY5YmMwZC00NDAwLTRhNzQtOWQ5OS0xZTkwZWMwZGQzMTMuanBnIiwid2lkdGgiOiI8PTcwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.UT_EGhKu1YzV5Zb3ifdIdWn0yCUD6jtD7_MfcxN8SZI',
         'name': 'Flash'
     },
     {
-        'id': '5d86371f97c29d020f1e1f6d',
+        'id': '21',
         'universo': 'DC',
         'about': 'Esse magna Lorem ipsum incididunt sit. Enim eiusmod proident in adipisicing.',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1c5dad4e-6a44-40b6-82c2-0815d0d7cc20/d3ahzmj-5994cf1e-42c5-4adc-a7c5-de740b2e4f80.jpg/v1/fit/w_828,h_1292,q_70,strp/hal_jordan_1_by_hitokirisan_d3ahzmj-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQwNCIsInBhdGgiOiJcL2ZcLzFjNWRhZDRlLTZhNDQtNDBiNi04MmMyLTA4MTVkMGQ3Y2MyMFwvZDNhaHptai01OTk0Y2YxZS00MmM1LTRhZGMtYTdjNS1kZTc0MGIyZTRmODAuanBnIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.UM-ROHhhE_uszQFW1RW-bNbQkMU8yDCv9RYWHf1fNHw', 
         'name': 'Green Lantern'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1ccb',
+        'id': '22',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://qph.cf2.quoracdn.net/main-qimg-d5086d94c3fab2fa7a4b683e7e785c7e',
         'name': 'Cyborg'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1ccb1',
+        'id': '23',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/20545a8f-3f45-4a0f-b810-53b32afddac2/deukoz5-5990a70b-69c5-4216-b61a-f4bbb2e4eb3c.jpg/v1/fit/w_600,h_903,q_70,strp/green_arrow_by_petersheppley_deukoz5-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAzIiwicGF0aCI6IlwvZlwvMjA1NDVhOGYtM2Y0NS00YTBmLWI4MTAtNTNiMzJhZmRkYWMyXC9kZXVrb3o1LTU5OTBhNzBiLTY5YzUtNDIxNi1iNjFhLWY0YmJiMmU0ZWIzYy5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.t8eBlnPQjm9pd3QA_V3S8n1mwlt8VPyhaLt7BO-ab8U', 
         'name': 'Green Arrow'
     }, {
-        'id': '5d86371fd55e2e2a30fe1ccb2',
+        'id': '24',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/01ee2fa2-550c-44a7-9c54-9b09bdf80188/dedsurp-1b605e70-f599-4eca-835f-f1c159a4e702.jpg/v1/fit/w_800,h_1236,q_70,strp/joker_by_mariano1990_dedsurp-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIzNiIsInBhdGgiOiJcL2ZcLzAxZWUyZmEyLTU1MGMtNDRhNy05YzU0LTliMDliZGY4MDE4OFwvZGVkc3VycC0xYjYwNWU3MC1mNTk5LTRlY2EtODM1Zi1mMWMxNTlhNGU3MDIuanBnIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vJuXxe9Mc8bdl5MdQSVCWVQdyOKp5xnO2YUowe5d6xg', 
         'name': 'Joker'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1cc3',
+        'id': '25',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://qph.cf2.quoracdn.net/main-qimg-0d84518f2227c6d97af6cb4cd58380be-pjlq',
         'name': 'Bane'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1cc4',
+        'id': '26',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://myhotposters.com/cdn/shop/products/mF0331_fe7699b8-8917-41a3-b660-a5ba0af07aa7_1024x1024.jpeg?v=1571443951',
         'name': 'Deathstroke'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1cc3',
+        'id': '27',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/02/black-ring.jpg?q=50&fit=crop&dpr=1.5',
         'name': 'Lex Luthor'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1cc3',
+        'id': '28',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55e23fd8-928d-4c70-ae78-5ff95a1cdd58/daakgpz-16fad1f2-c51e-4399-aee8-f0642b0f042e.jpg/v1/fit/w_828,h_1188,q_70,strp/deadshot_fanart_by_spyked_and_dym_by_thiagospyked_daakgpz-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwOCIsInBhdGgiOiJcL2ZcLzU1ZTIzZmQ4LTkyOGQtNGM3MC1hZTc4LTVmZjk1YTFjZGQ1OFwvZGFha2dwei0xNmZhZDFmMi1jNTFlLTQzOTktYWVlOC1mMDY0MmIwZjA0MmUuanBnIiwid2lkdGgiOiI8PTExOTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.XRz0aAC1Z9tAk9MHbiVV-BwoqCcmnjILd0Tnoj3cbGE',
         'name': 'Deadshoot'
     },
     {
-    'id': '5d86371fd55e2e2a30fe1cc3',
+    'id': '29',
     'universo': 'DC',
     'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
     'picture': 'https://qph.cf2.quoracdn.net/main-qimg-e12cf4ba9e19a369b1998f7963c16fdc',
     'name': 'Two-Face'
     },
     {
-        'id': '5d86371fd55e2e2a30fe1cc3',
+        'id': '30',
         'universo': 'DC',
         'about': 'Id aute in dolore dolor in incididunt dolore duis do mollit officia duis.',
         'picture': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/20545a8f-3f45-4a0f-b810-53b32afddac2/dettwca-c4cf0976-05c1-469d-9782-cad5e8793825.jpg/v1/fit/w_600,h_926,q_70,strp/batgirl_by_petersheppley_dettwca-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTI2IiwicGF0aCI6IlwvZlwvMjA1NDVhOGYtM2Y0NS00YTBmLWI4MTAtNTNiMzJhZmRkYWMyXC9kZXR0d2NhLWM0Y2YwOTc2LTA1YzEtNDY5ZC05NzgyLWNhZDVlODc5MzgyNS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.6UuBUc5yrWjTrrMocCKufRwGCarc2Mcj5ogqml1amCo',
@@ -258,5 +258,27 @@ function crearTarjeta(personaje) {
 }
 
 // 
+
+tarjetasDePersonajes();
+
+function mostrarDetalle(personaje) {
+    let ventana = document.getElementById('ventanaDesc');
+
+
+    ventana.innerHTML = `
+    <div class='contenidoVentana'>
+        <img src='${personaje.picture}' alt='${personaje.name}'>
+        <h2>${personaje.name}</h2>
+        <p>${personaje.about}</p>
+        <button id='cerrar' class='btnVentana'>Cerrar</button>
+    </div>
+`;
+
+    document.getElementById('cerrar').addEventListener('click', function() {
+        ventana.style.display = 'none';
+    });
+
+    ventana.style.display = 'block';
+}
 
 tarjetasDePersonajes();
