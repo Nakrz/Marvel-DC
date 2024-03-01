@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 
 body {
     background-color: rgb(23, 19, 29);
@@ -39,6 +42,45 @@ body {
     max-height: auto;
 }
 
+.contenido {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten automáticamente en múltiples líneas */
+}
+
+.contenido a {
+    flex: 1; /* Distribuye el espacio disponible entre los elementos */
+    margin: 5px; /* Añade un pequeño margen entre los elementos */
+    max-width: 150px; /* Limita el ancho máximo de cada elemento */
+}
+
+.contenido a img {
+    width: 100%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+
+/* Busqueda */
+
+#search-bar {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 75%;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-bar:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
 .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -53,16 +95,19 @@ body {
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    transition: background-color 0.3s ease
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .tarjeta:hover {
     background-color: #f7b33d;
+    transform: scale(1.04);
 }
 
 .tarjeta img {
     width: 100%;
     height: auto;
+    
 }
 
 .tarjeta-content {
@@ -102,35 +147,24 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-80%, -47%);
-    background-color: white;
-    padding: 70px; 
+    transform: translate(-70%, -50%);
+    background-color: rgba(255, 255, 255, 0.968);
+    padding: 2em;
+    max-width: 30%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 9999; 
-    display: none; 
+    z-index: 9999;
+    display: none;
 }
-
-.ventanaDescripcion .btnVentana {
-    background-color: #f7b33d;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 
 .contenidoVentana {
     text-align: center;
 }
 
 .contenidoVentana img {
-    width: 100%;
-    max-height: 400px; 
-    object-fit: cover; 
+    width: 60%;
+    max-height: 400px;
+    object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -138,31 +172,73 @@ body {
 .contenidoVentana h2 {
     color: rgb(0, 45, 108);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px; 
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
-#cerrar {
-    background-color: #f7b33d;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
+.contenidoVentana p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 500;
 }
 
-#cerrar:hover {
-    background-color: #002e4b;
+.btnVentana {
+    font-size: 25px;
+    width: 25px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 10px;
+    right: 10px;
+    transition: color 0.3s;
+    
+}
+
+.btnVentana:focus {
+    outline: none;
+}
+
+.btnVentana:hover {
+    color: red;
 }
 
 
 @media screen and (max-width: 768px) {
     .logos img {
         width: 100%; 
+        transform: translate( -2%, 1%);
     }
 
     .tarjeta {
-        width: 90%; 
+        width: 80%;
+        transform: translate(2%, 1%);
     }
+    
+    .ventanaDescripcion {
+        width: 50%; 
+        max-width: 100%;
+        transform: translate(-77%, -10%);
+    }
+
+    #search-bar {
+        transform: translate(-77%, -10%);
+    }
+
+    .contenido{
+        width: 50%; 
+        max-width: 100%;
+        transform: translate(-75%, -50%);
+    }
+
+    .contenido a {
+        max-width: 120px;
+        transform: translate(400%, 50%);
+    }
+
+
+    
 }
+

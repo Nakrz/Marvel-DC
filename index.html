@@ -16,37 +16,39 @@
                 <img src="images/marvel.png">
             </div>
         </div>
-        <div class="contenedor" id="personajes-marvel">
-            <img src="" alt="">
-            <h3>Descripcion</h3>
-            <button>HOLA</button>
+        <div id="uniSeleccion" class="contenido">
+            <a href="#" onclick="filtrarPorUniverso('todos')">Todos</a>
+            <a href="#" onclick="filtrarPorUniverso('Marvel')">
+                <img src="images/marvel.png">
+            </a>
+            <a href="#" onclick="filtrarPorUniverso('DC')">
+                <img src="https://1.bp.blogspot.com/-J_03K6ZYZaw/YMZxgvoKK_I/AAAAAAAA_-E/RN3uRLWI20kuDir37nl_3GaSuDXTLQBGgCLcBGAsYHQ/s3200/tipografia-dc-comics.jpg">
+            </a>
         </div>
-        <br>
-        <br>
+        <div id="search-container">
+            <input type="text" id="search-bar" placeholder="Buscar personaje...">
+        </div>
+        <div class="contenedor" id="personajes-marvel">
+        </div>
         <div class="logos separador">
             <div class="dcLogo">
                 <img src="images/DC_Comics_logo.png" alt="DC Comics Logo">
             </div>
         </div>
-        <br>
-        <br>
         <div class="contenedor" id="personajes-dc">
-            <img src="" alt="">
-            <h3>Descripcion</h3>
-            <button>HOLA</button>
         </div>
-        <br>
-        <br>
         <dialog id="ventanaDesc" class="ventanaDescripcion">
             <div id="contenidoVentana" class="contenidoVentana">
                 <img src="" alt="">
                 <h2></h2>
                 <br>
                 <p></p>
-                <button id="cerrar"class="btnVentana">Cerrar</button>
+                <button id="cerrar"class="btnVentana">X</button>
             </div>
         </dialog>
     </main>
 </body>
 </html>
+
+
 
