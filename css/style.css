@@ -44,20 +44,25 @@ body {
 
 .contenido {
     display: flex;
-    justify-content: space-around; /* Distribuye los elementos horizontalmente */
-    align-items: center; /* Centra verticalmente los elementos */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten automáticamente en múltiples líneas */
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 
 .contenido a {
-    flex: 1; /* Distribuye el espacio disponible entre los elementos */
-    margin: 5px; /* Añade un pequeño margen entre los elementos */
-    max-width: 150px; /* Limita el ancho máximo de cada elemento */
+    flex: 1; 
+    margin: 5px; 
+    max-width: 150px; 
 }
 
 .contenido a img {
-    width: 100%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 100%; 
+    height: auto; 
+}
+
+.contenido a{
+    color: white;
+    font-size: 25px;
 }
 
 
